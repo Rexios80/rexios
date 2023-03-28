@@ -9,4 +9,9 @@ dev_dependencies:
   rexios_lints: ^5.0.0
 
 executables:
+  fluttercors: flutter_cors
+  git_dependency_prs: git_dependency_prs
+  opd: one_password_dart
+  oie: open_in_editor
+  puby: puby
   rex: rex
