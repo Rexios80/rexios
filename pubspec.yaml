@@ -1,6 +1,7 @@
 name: rexios
 description: A simple bootstrap utility for all of the CLI tools I daily drive
 version: 1.0.0
+homepage: https://github.com/Rexios80/rexios
 
 environment:
   sdk: ">=2.19.0 <3.0.0"
