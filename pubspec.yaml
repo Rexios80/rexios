@@ -7,7 +7,7 @@ environment:
   sdk: ">=2.19.0 <3.0.0"
 
 dev_dependencies:
-  rexios_lints: ^5.0.0
+  rexios_lints: ^6.0.1
 
 executables:
   fluttercors: flutter_cors
