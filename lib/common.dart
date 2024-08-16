@@ -28,8 +28,10 @@ Future<void> activateFromGit(String url) async {
 /// Run [executable] with [arguments] and forward its output to [stdout] and
 /// [stderr].
 Future<int> run(String executable, List<String> arguments) async {
-  final process = await Process.start(executable, arguments);
-  unawaited(stdout.addStream(process.stdout));
-  unawaited(stderr.addStream(process.stderr));
+  final process = await Process.start(
+    executable,
+    arguments,
+    mode: ProcessStartMode.inheritStdio,
+  );
   return process.exitCode;
 }
